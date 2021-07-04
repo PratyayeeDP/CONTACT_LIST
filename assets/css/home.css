@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+}
+#contacts-list-container{
+    margin-left: 35%;
+    text-align: center;
+    width:30%;
+}
+#contacts-list-container ul{
+    padding: 0;
+    list-style: none;
+}
+.contact{
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display:flex;
+}
+.contact.details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:90%;
+}
+.delete-button{
+    padding-left: 60px;
+    width:10%;
+    padding-top: 18px;
+}
+.delete-button a{
+    color: white;
+    background-color: red;
+}
+.detailsname{
+    display: inline-block;
+    
+}
+.detailsphone{
+    display: inline-block;
+    padding-left: 40px;
+}
+#new-contact-form{
+    padding-left: 35%;
+    justify-content: center;
+}

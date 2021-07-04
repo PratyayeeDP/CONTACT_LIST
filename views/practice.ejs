@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <!-- we keep the title dynamic -->
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+        <h1>Playground</h1>
+        <!-- loops in ejs -->
+        <ul>
+            <% for(let i=1;i<6;i++){%>
+                <li>
+                    <!-- When we need to print some thing we use <%=...%> -->
+                    <%= i%>
+                </li>
+                <%}%>
+        </ul>
+        <!-- conditional statements in ejs -->
+        <% if(true){%>
+            <h1>Its true!</h1>
+            <% }else{%>
+            <p>Its false</p>
+        <%}%>
+    </body>
+</html>
